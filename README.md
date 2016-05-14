@@ -1,6 +1,14 @@
 # WorkFront-Issue-Archive
 
-This code requires python 3.5 to run. You can get python from here. https://www.python.org/downloads/
+This code requires python 3.5 to run. You can get python from here. https://www.python.org/downloads/.
+
+Once you have the .py files in a folder, simply open a command prompt, navigate to the folder, then type "python archive_issues.py"
+
+As a detailed step by step:
+1. Hit windows key and type "cmd" then enter
+2. To navigate to the folder, type "CD " (note the space) then you can drag the folder from windows explorer onto the command prompt and it will fill in the path for you.
+3. Type "python archive_issues.py" and hit enter. 
+4. Follow the series of prompts. It will ask for your api key and the ID numbers of the to and from projects along with the age in months. This is the age from the Actual Completion Date.
 
 If you already have python but are running 2.x branch you can either convert the code, or if you are using Anaconda you can create a 3.5 environment and switch to that to execute.
 
