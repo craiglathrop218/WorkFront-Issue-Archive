@@ -9,3 +9,7 @@ The script will ask you for your API Key, sub domain, and the ID number of the p
 You can find your API Key in Workfront under setup->system->customer info. I'm fairly certain that you must be a system admin to have an API key. Techncially this script could be modified to accept a username and password instead, but I always use an API Key.
 
 I'm OK with making minor changes to this script on request, so if you have any questions either msg me here or on Linkedin.
+
+
+--------------
+Note: This script will ask you if you want to run the live environment or sandbox. As of 5/12/16 something is broken in sanbox. Moving issues via the API or the standard user interface just hangs. Sanbox has been running super slow lately, so you will probably have to run this on live data. It only moves items.
